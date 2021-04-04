@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" integrity="sha256-MmuZTsWcczT1IhH71aqQmja5jRcXy3mL/NOvjUy9tso=" crossorigin="anonymous" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" integrity="sha256-3YM6A3pH4QFCl9WbSU8oXF5N6W/2ylvW0o2g+Z6TmLQ=" crossorigin="anonymous" />
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  </head>
+
+  <body>
+    
+    <div class="intro-header">
+        <div class="wrapper-masthead">
+         <div class="container">
+           <header class="masthead clearfix">
+             <div class="site-info">
+               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+               <p class="site-description">{{ site.description }}</p>
+             </div>
+             <nav>
+               <a href="{{ site.baseurl }}/projects">Projects</a>
+               <a href="https://verbnetworks.com" target="_blank">The Lab</a>
+               <a href="{{ site.baseurl }}/about">About</a>
+             </nav>
+           </header>
+         </div>
+       </div>
+       
+        <div class="container">
+            <div class="space-small"></div>
+           
+            <div class="centered">
+              <ul class="ch-grid">
+                <li>
+                    <div class="ch-item ch-img-1">				
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-1"></div>
+                                <div class="ch-info-back">
+                                    <h3>{{site.name}}</h3>
+                                    <p>
+                                        <br/>
+                                        <a href="https://linkedin.com/in/{{ site.footer-links.linkedin }}">View on LinkedIn</a>
+                                    </p>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+             
+             <div class="space-medium"></div>
+            
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+            <div class="svg-icon">
+          {% include svg-icons.html %}
+            </div>
+        </footer>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+    {% include analytics.html %}
+  </body>
+</html>

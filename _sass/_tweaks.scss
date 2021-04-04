@@ -1,0 +1,32 @@
+
+.site-name {
+    a {
+      font-weight: bold;
+    }
+}
+
+.space-medium {
+    padding: 50px 0 50px;
+}
+
+.space-small {
+    padding: 25px 0 25px;
+}
+
+.space-extra-small {
+    padding: 15px 0 15px;
+}
+
+pre code.hljs {
+    font: normal 10pt Consolas, Monaco, monospace;
+    padding: 1.5em;
+}
+
+div.posts article.post h1 {
+    margin-bottom: 0px;
+}
+
+div.posts article.post div.post-date {
+    font-size: 0.7em;
+    color: $mono-color;
+}

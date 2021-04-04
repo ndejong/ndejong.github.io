@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ndejong
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nicholasdejong.com
+  * I am ndejong (https://keybase.io/ndejong) on keybase.
+  * I have a public key ASCzfOZZtJM4F07dx6bMZX5T4I4JirBLO0NsufLD5hA2Ggo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206856bd313802af48f75b59cddebc1f2cba6565e7c7de20a5fa1acf474d8b43450a",
+      "host": "keybase.io",
+      "kid": "0120b37ce659b49338174eddc7a6cc657e53e08e098ab04b3b436cb9f2c3e610361a0a",
+      "uid": "3195b4ddeb6f4c4250ab2b5ff7c68b19",
+      "username": "ndejong"
+    },
+    "merkle_root": {
+      "ctime": 1613724514,
+      "hash": "278f571055909ffd25e2ae2ec6e2afbc37c41cde727fd14765d4b2486c1a3441c727ded68f23c41551cb7ad87afa2687facd7588471001935943a825372fb8b8",
+      "hash_meta": "23b42c8b65fdbf4bc9bb04fa6e18b9c9892af71e1660eea850e9f2f7a1ad6575",
+      "seqno": 19160304
+    },
+    "service": {
+      "entropy": "zVUKoOmAn1aX14u/hopnrqd6",
+      "hostname": "nicholasdejong.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1613724535,
+  "expire_in": 504576000,
+  "prev": "7691b4e264dd17830a970e1682d43dc8bc3a4021b1f89fa9d893d8102ec8e9b1",
+  "seqno": 55,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgs3zmWbSTOBdO3cemzGV+U+COCYqwSztDbLnyw+YQNhoKp3BheWxvYWTESpcCN8QgdpG04mTdF4MKlw4WgtQ9yLw6QCGx+J+p2JPYEC7I6bHEINHhkUnYozG0BH7f65p59BSS7T4+CTo3di9CBbJHbTaWAgHCo3NpZ8RA/JYSn8s24/2tBR94CDUwXQtM0fc0aI1oS2Q0+WGeVReCO3IAFIT0k9SqRqydc06NbXcCYkf1P02co+IK0fftAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILgnt7hUBRidGq1UJc7tyM3z2isa6zMIopk1Pmb0V8gZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ndejong
+
+==================================================================
