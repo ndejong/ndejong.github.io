@@ -1,0 +1,38 @@
+
+// Colors
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+$blue: #4183C4;
+
+
+// Main theme colors 
+$mono-color:$blue;          // main theme color(header, links, footer icons, buttons, post-title)
+$hl-color: $darkGray;         // header link color (author name and posted on date) for blog post meta
+$navbar-hover-color:$gray;    // navbar hover color (site name and navbar links hover color)
+$link-color: $darkerGray;     // normal hyperlink color other than the ones above.
+
+// Heading colors
+$h1-color: $gray;
+$h2-color: $gray;
+$h3-color: $gray;
+$h4-color: $gray;
+
+// Your avatar
+$avatar: "/images/ndejong-raster-square-220x220.png";
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$raleway: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

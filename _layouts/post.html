@@ -1,0 +1,38 @@
+---
+layout: site
+---
+
+<div class="intro-header">
+  <div class="container">
+    <div class="post-heading">
+        <h1>{{page.title}}</h1>
+
+        <span class="meta">
+          Posted by &nbsp; <a href="{{ site.baseurl }}/about"> {{page.author}}</a> &nbsp; on {{ page.date | date: "%B %e, %Y" }}
+        </span>
+
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="return-link">
+            <a href="{{ site.baseurl }}/"><i class="fa-solid fa-rotate-left"></i> Home</a>
+        </span>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="main" role="main" class="container">
+    <article class="post">
+     <div class="space-extra-small">
+     </div>
+
+      <div class="entry">
+        {{ content }}
+      </div>
+
+      {% include disqus.html %}
+    </article>
+</div>
+
+{% include footer.html %}
